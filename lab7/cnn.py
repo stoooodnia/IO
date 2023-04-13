@@ -1,5 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
+import tensorflow as tf
 
 # tworzymy tablice o wymiarach 128x128x3 (3 kanaly to RGB)
 # uzupelnioną zerami = kolor czarny
@@ -32,6 +33,7 @@ for i in range(128):
         elif (i-15)**2 + (j-110)**2 == 25 or (i-15)**2 + (j-110)**2 == 26:
             draw(data, i, j, 255)
 
+for i in
 # konwersja macierzy na obrazek i wyświetlenie
 plt.imshow(data, interpolation='nearest')
 plt.show()
