@@ -33,7 +33,7 @@ for i in range(128):
         elif (i-15)**2 + (j-110)**2 == 25 or (i-15)**2 + (j-110)**2 == 26:
             draw(data, i, j, 255)
 
-for i in
+
 # konwersja macierzy na obrazek i wyświetlenie
 plt.imshow(data, interpolation='nearest')
 plt.show()
